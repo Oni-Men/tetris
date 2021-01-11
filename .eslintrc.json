@@ -1,0 +1,24 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "env": { "node": false, "es6": true },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "sourceType": "module",
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+      "no-constant-condition": ["error", { "checkLoops": false }],
+      "prettier/prettier": ["error", {
+          "endOfLine":"auto"
+      }]
+    }
+  }

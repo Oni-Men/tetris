@@ -1,0 +1,16 @@
+#container {
+  margin: auto;
+}
+
+h2, h3 {
+  margin: 2em;
+  text-align: center;
+  user-select: none;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Comfortaa', 'sans';
+  overflow: hidden;
+}
